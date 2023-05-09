@@ -18,5 +18,3 @@ results = cursor.fetchall()
 print(results)
 
 # query 2
-
-
