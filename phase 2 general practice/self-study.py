@@ -15,7 +15,7 @@ def variance(data):
     variance = sum(deviations) / n
     return variance
 
-print(statistics.variance(listB))
+print(statistics.variance(list))
 
 print(statistics.stdev(listB))
 
