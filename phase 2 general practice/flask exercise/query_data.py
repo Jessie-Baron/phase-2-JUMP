@@ -12,6 +12,8 @@ def select_book(conn, book_id):
     sql = "SELECT * FROM book WHERE id = ?"
     cursor.execute(sql, [book_id])
 
+    return  cursor.fetchone()
+
 def select_author(conn, value=None, column=None):
     cursor = conn.cursor()
 
