@@ -1,0 +1,100 @@
+#modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #modal-content {
+    z-index: 2500
+  }
+
+  #modal-background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .singIn-header {
+    padding-bottom: 5%;
+    color: #333;
+    font-weight: 400;
+  }
+
+  #modal-content > form > label > input[type=text] {
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 7px 8px;
+    width: 250px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    display: inline-block;
+    color: #333;
+  }
+
+  #modal-content > form > label > input[type=text]::placeholder {
+    color: rgb(192, 192, 192);
+  }
+
+  #modal-content > form > label > input[type=password] {
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 7px 8px;
+    width: 250px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    display: inline-block;
+    color: #333;
+  }
+
+  #modal-content > form > label > input[type=password]::placeholder {
+    color: rgb(192, 192, 192);
+  }
+
+  .logIn {
+    background-color: #f50;
+    border-color: #f50;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    width: 250px;
+    font-size: 16px;
+    font-weight: 100;
+    height: 40px;
+    line-height: 18px;
+    padding: 10px 15px;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+
+  .logIn-demo {
+    background-color: #333;
+    border-color: #333;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    width: 250px;
+    font-size: 16px;
+    font-weight: 100;
+    height: 40px;
+    line-height: 18px;
+    padding: 10px 15px;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+
+  .singIn-divider {
+    width: 83%;
+    margin-left: 2%;
+  }
